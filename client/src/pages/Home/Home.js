@@ -38,13 +38,13 @@ const Home = () => {
           <h1 className="text-md ">{user.phoneNumber}</h1>
         </div>
         <div className="flex justify-between">
-          <h1 className="text-md ">Identification Type</h1>
-          <h1 className="text-md ">{user.identificationType}</h1>
+          <h1 className="text-md ">Aadhar Number</h1>
+          <h1 className="text-md ">{user.aadharNumber}</h1>
         </div>
-        <div className="flex justify-between">
+        {/* <div className="flex justify-between">
           <h1 className="text-md ">Identification Number</h1>
           <h1 className="text-md ">{user.identificationNumber}</h1>
-        </div>
+        </div> */}
       </div>
     </div>
   );
